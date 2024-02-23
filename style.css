@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1200px;
+    background-image: url("BG2.png");
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center bottom;
+    color: white;
+}
+.backgd{
+    
+    
+    margin: 0;
+    padding: 0;
+    filter: blur(2px);
+    display: inline-block;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: #e5d6ad;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0, 0, 5);
+
+
+}
+.left{
+    margin :0%;
+    padding: 0;
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 25%;
+    height: 40px;
+    position: fixed;
+
+
+}
+.mid{
+    margin :0%;
+    padding: 0;
+    /* border: 2px solid rgb(130, 35, 35); */
+
+    display: inline-block;
+    position: fixed;
+    left: 33%;
+
+    
+    height: 30px;
+
+    text-align: center ;
+    font-size: 28px;
+
+    
+
+}
+.nav{
+    display: inline-block;
+    padding: 5px;
+    position: relative ;
+    bottom: 20px;
+    /* border: 2px solid red; */
+    margin-left: 10px;
+}
+.nav a{
+    color: #637A9F;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace ;
+}
+.nav :hover{
+    color: #637a9f91;
+    font-weight: bold;
+}
+.Elo{
+    display: inline-block;
+    width: 130px;
+    height: auto;
+
+
+}
+
+.right{
+    margin :0%;
+    width: 30%;
+    height: 40px;
+    padding: 0;
+    color:blueviolet;
+    display: inline-block;
+    text-align: right;
+    position: fixed;
+    left:70%
+}
+
+.btn_cont{
+    border: 2px solid  #cbaf63;
+    font-size: 20px;
+    position: relative; 
+    top:15px;
+    background-color:  #E8C872;
+    margin: 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    padding: 8px;
+
+  
+}
+
+.cards{
+    border: 5px solid #e2d2a6;
+    margin: 12px;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    /* top: 50px; */
+    color: black;
+    /* height: 100px; */
+    width: 30%;
+    aspect-ratio: 0.67;
+    margin-left: 25px;
+    background-image: url("BG3.jpg");
+    background-size: auto 100%;
+    /* background-repeat:no-repeat; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(207, 188, 137, 5);
+
+}
+.card_links{
+    text-decoration: none;
+}
+.cardsPic{
+    
+    border: 2px solid rgb(255, 255, 255);
+    width:96%;
+    height: 50%;
+    margin :8px;
+    /* background-color: #f3ede8; */
+    /* background-image: url(GHUB.png); */
+    /* background-size: cover; */
+    /* clip-path: rect(40px 100% 100% 0); */
+    /* background-position: 0% 60%; */
+}
+.cardsPic1{
+    
+    border: 2px solid rgb(255, 255, 255);
+    width:96%;
+    height: 50%;
+    margin :8px;
+    /* background-color: #f3ede8; */
+    background-image: url(GHUB.png);
+    /* background-size: contain; */
+    background-size: auto 100%;
+    /* background-position: 20% 50%; */
+}
+.cardsPic2{
+    
+    border: 2px solid rgb(255, 255, 255);
+    width:96%;
+    height: 50%;
+    margin :8px;
+    background-image: url("Wal1.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    background-position: 0% 60%;
+}
+.cardsPic3{
+    
+    border: 2px solid rgb(255, 255, 255);
+    width:96%;
+    height: 50%;
+    margin :8px;
+    /* background-color: #f3ede8; */
+    background-image: url(RES.jpg);
+    /* background-size: contain; */
+    background-size: auto 100%;
+    border-radius: 10px;
+    /* background-position: 20% 50%; */
+}
+
+.h2cards{
+    color: #FF407D;
+}
+
+p{  color: #FF407D;
+    font-size: 20px;
+    
+
+}
+.downl{
+    border: 3px solid #a5a5a5;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: white;
+    padding:20px;
+    letter-spacing: 2px;
+    color: black;
+    opacity: 1;
+
+
+}
+
+.footer{
+    border: 2px solid #FF407D;
+
+}
+

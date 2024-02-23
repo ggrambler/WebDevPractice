@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 800px;
+    background-image: url("BG2.png");
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center bottom;
+    color: white;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    background-color: #e5d6ad;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0, 0, 5);
+
+
+}
+.left{
+    margin :0%;
+    padding: 0;
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 25%;
+    height: 40px;
+    position: fixed;
+
+
+}
+.mid{
+    margin :0%;
+    padding: 0;
+    /* border: 2px solid rgb(130, 35, 35); */
+
+    display: inline-block;
+    position: fixed;
+    left: 33%;
+
+    
+    height: 30px;
+
+    text-align: center ;
+    font-size: 28px;
+
+    
+
+}
+.nav{
+    display: inline-block;
+    padding: 5px;
+    position: relative ;
+    bottom: 20px;
+    /* border: 2px solid red; */
+    margin-left: 10px;
+}
+.nav a{
+    color: #637A9F;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace ;
+}
+.nav :hover{
+    color: #637a9f91;
+    font-weight: bold;
+}
+.Elo{
+    display: inline-block;
+    width: 130px;
+    height: auto;
+
+
+}
+
+.right{
+    margin :0%;
+    width: 30%;
+    height: 40px;
+    padding: 0;
+    color:blueviolet;
+    display: inline-block;
+    text-align: right;
+    position: fixed;
+    left:70%
+}
+
+.btn_cont{
+    border: 2px solid  #cbaf63;
+    font-size: 20px;
+    position: relative; 
+    top:15px;
+    background-color:  #E8C872;
+    margin: 10px;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    padding: 8px;
+}
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.Vidcont{
+    /* border: 2px solid red; */
+    /* position: relative;
+    left:25%; */
+    height: 700px;
+    width: 30%;
+    display: inline-block;
+
+}
+.a404NFG{
+    /* border:2px solid red ; */
+    display:inline-block;
+    position: relative;
+    bottom: 400px;
+    left: 50px;
+
+}
+
+  
