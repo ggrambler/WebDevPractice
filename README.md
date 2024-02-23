@@ -1,10 +1,10 @@
-# Project Title
+# WEB DEVELOPMENT PRACTICE
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+<!-- [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) -->
 
 ## Description
 
-Briefly describe your project here. Mention its purpose, features, and any other relevant information.
+hi. this is my personal repo on which i play with html, css and js. frameworks used will have thier own folders . This is pure html, css and js. 😊
 
 ## Table of Contents
 
@@ -12,13 +12,12 @@ Briefly describe your project here. Mention its purpose, features, and any other
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
-Provide step-by-step instructions on how to install and set up your project. 
+Clone and run. 😊
 
 ```bash
-$ git clone https://github.com/yourusername/yourproject.git
-$ cd yourproject
-$ npm install
+$ git clone https://github.com/ggrambler/WebDevPractice.git
+# $ cd yourproject
+# $ npm install
