@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- Commited to https://github.com/ggrambler/WebDevPractice.git -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yellow Fever </title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 1600px;
+            background-image: url("BG.png");
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center bottom;
+            color: white;
+        }
+        .backgd{
+
+            
+            margin: 0;
+            padding: 0;
+            filter: blur(2px);
+            display: inline-block;
+        }
+        .left{
+            margin :0%;
+            padding: 0;
+            border: 2px solid red;
+            display: inline-block;
+            width: 30%;
+            height: 40px;
+            position: fixed;
+
+
+        }
+        .mid{
+            margin :0%;
+            padding: 0;
+            border: 2px solid rgb(130, 35, 35);
+
+            display: inline-block;
+            position: fixed;
+            left:39%;
+
+            
+            height: 40px;
+
+            text-align: center ;
+            font-size: 24px;
+
+            
+
+        }
+        .right{
+            margin :0%;
+            width: 30%;
+            height: 40px;
+            padding: 0;
+            border: 2px solid green;
+            display: inline-block;
+            text-align: right;
+            position: fixed;
+            left:70%
+        }
+        .blackbody{
+            margin: 0;
+            padding: 0;
+            height: 61px;
+            background-color: black;
+            position: fixed;
+            width: 100%;
+
+
+        }
+        .nav{
+            display: inline-block;
+            color: white;
+            padding: 5px;
+        }
+        .nav a{
+            color: antiquewhite;
+            text-decoration: none;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        .nav :hover{
+            color: red;
+        }
+        .Elo{
+            width: 140px;
+            height: auto;
+
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <header class="Header">
+        <div class="blackbody">
+
+            <div class="left">
+                <a href="https://www.espn.in/" ><img src="Elo.png"  class="Elo"></a>
+                
+                
+                
+            </div>
+            <div class="mid">
+                <ul>
+                    <li class="nav"><a href="#">Home</a></li>
+                    <li class="nav"><a href="#">Sets</a></li>
+                    <li class="nav"><a href="#">Pricing</a></li>
+                    <li class="nav"><a href="#">Dash</a></li>
+                </ul>
+
+
+            </div>
+            <div class="right">
+                This is right;
+                
+            </div>
+            
+        </div>
+    </header>
+    <div class="backgd">
+
+    </div>
+
+
+
+
+
+</body>
+</html>
