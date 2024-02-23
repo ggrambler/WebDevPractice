@@ -5,6 +5,7 @@
 ## Description
 
 hi. this is my personal repo on which i play with html, css and js. frameworks used will have thier own folders . This is pure html, css and js. 😊
+<img src="SS.png" alt="SS Unavailable" style="height=100px" width="auto">
 
 ## Table of Contents
 
